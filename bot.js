@@ -31,7 +31,7 @@ let already_signed_message = "you are already signed up... and there's no turing
 let roll_introduceing_msg = [' did a good job and rolled: ', ' followed up with a hefty roll of: ', ' welll... you rolled: ', ' sorry for waiting but you rolled: ', ' i did my best rolling and you got: '];
 let deathroll_channel = '';
 //friday callout settings
-let friday_callout_message = 'Nu är det fredag gubbar och damer! :D';
+let friday_callout_message = 'Nu Ã¤r det fredag gubbar och damer! :D';
 let friday_callout_channel = '';
 //roll function
 let error_not_numbers = 'Sori :(, only valid numbers plz';
@@ -107,7 +107,7 @@ function friday_check() {
 	
 	if(curr_day == '5' && curr_hour == '0') {
 		console.log('Friday has come!');
-		client.channels.get(friday_callout_channel).send('Nu är det fredag gubbar! :D');
+		client.channels.get(friday_callout_channel).send(friday_callout_message);
 	}
 	
 	console.log('Day -> ' + curr_day + ' Hour -> ' + curr_hour);
