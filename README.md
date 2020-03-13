@@ -13,4 +13,4 @@ Vikings-dödsrullaren
    https://discordapp.com/developers/applications/
 9. If you not done it yet start your bot and go to your designated friday-callout channel and typ .channel_id or whatever your prefix is,    paste that id and add it to the friday_callout_channel variable under settings inside bot.js. Do the same for your designated              deathroll_channel id.
    
-Important! friday_callout_channel and deathroll_channel id must be set!
+Important! friday_callout_channel and deathroll_channel id must be set manually!
